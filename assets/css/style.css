@@ -1,4 +1,9 @@
-.view {
-    color: yellow;
+.header-text {
     font: 'Trebuchet MS', sans-serif;
+    font-size: 40px;
   }
+
+.body-text {
+  font: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
