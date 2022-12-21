@@ -1,13 +1,16 @@
-.header-text {
-    font: 'Trebuchet MS', sans-serif;
+/* .header-text {
+    font: 'Helvetica', 'Arial', sans-serif;
     font-size: 40px;
   }
 
 .body-text {
-  font: 'Trebuchet MS', sans-serif;
+  font: 'Helvetica', 'Arial', sans-serif;
   font-size: 20px;
-}
+} */
 
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
 /* .column {
   float: left;
 }
@@ -35,7 +38,7 @@ article{ flex:1; }
 .header {
   overflow: hidden;
   background-color: #261C14;
-  padding: 20px 10px;
+  padding: 1% 2%;
 }
 
 /* Style the header links */
