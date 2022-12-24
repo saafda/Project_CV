@@ -108,12 +108,20 @@ input, select {
   text-decoration: none;
 }
 
+main {
+    padding-top: 100px;
+}
+
 :root {
     --font: Verdana
 }
 
 
 header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: #111;
     width: 100%;
     height: 100px;
@@ -270,6 +278,99 @@ header nav ul li a{
     }
 }
 
+/* PROJECTS */
+
+.projects-links{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.projects-links h2 {
+    font-family: var(--font);
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.projects-links .project-link {
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin: 20px 10px 0px;
+}
+
+.projects-links p {
+    padding-top: 45%;
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.projects-links .wrapper div {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .projects-links h2 {
+        text-align: center;
+    }
+
+    .projects-links .project-link {
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+
+}
+
+
+/* PROJECT */
+
+.project-img h2 {
+    font-family: var(--font);
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.project-img img{
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+    max-width: 95%;
+}
+
+.project-img article h3{
+    font-family: var(--font);
+    font-size: 24px;
+    font-weight: 600;
+    color: #111;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.project-img article div p{
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #111;
+    column-count: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* column-gap: 10px; */
+}
+
 
 /* FOOTER */
 
@@ -294,7 +395,7 @@ footer ul li {
 
 footer ul li a {
     font-family: var(--font);
-    font-size: 24px;
+    font-size: 16px;
     color: #D9C9BA;
     line-height: 40px;
 }
