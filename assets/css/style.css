@@ -349,6 +349,13 @@ header nav ul li a{
     max-width: 95%;
 }
 
+.project-img video{
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+    max-width: 95%;
+}
+
 .project-img article h3{
     font-family: var(--font);
     font-size: 24px;
