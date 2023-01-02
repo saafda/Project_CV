@@ -439,6 +439,7 @@ button {
     height: auto;
 }
 
+
 /* ABOUT */
 
 .project-about h2 {
@@ -471,11 +472,12 @@ button {
 
 #content {
     font-family: var(--font);
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 14px 7px;
     line-height: 30px;
     background: #fff;
-    max-width: 330px;
+    max-width: 500px;
+    max-height: 500px;
     margin: 12vh auto;
     box-shadow: 0 2px 3px rgba(71, 71, 71, 0.3);
   }
@@ -559,6 +561,12 @@ footer ul li a {
 .footer-sm img {
     width: 100%;
     margin-bottom: 10px;
+}
+
+.wrapper footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 
